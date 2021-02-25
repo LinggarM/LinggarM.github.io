@@ -9,12 +9,45 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	
+	<!-- My Own CSS -->
     <link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 
-    <title>Linggar Maretva | Android Developer & Graphic Designer</title>
+    <title>Linggar Maretva Cendani | Android Developer & Graphic Designer</title>
   </head>
   <body>
-    <h1>Hello, I'm Linggar Maretva Cendani.</h1>
+  <div id="wrapper">
+	<style>
+		#wrapper {}
+		#headerbox {width: 100%; padding: 16px; overflow: auto;}
+		#header {float: left}
+		#header img {width:70px;height:70px;}
+		#header .title {font-family: "Quicksand", sans-serif; font-weight: bold; font-size:28px}
+		#navigation {float: right; }
+		#navigation ul {}
+		#navigation li {display: inline; margin: 16px}
+		#navigation a {color: #000; font-family: "Quicksand", sans-serif; font-weight: bold; font-size:28px; text-decoration:none}
+		#navigation a:hover {text-decoration: underline;}
+		#navigation a.contact-me {background:#000; border-radius:15px; padding:16px; color: #fff; box-shadow: 5px 10px;}
+		#navigation a.contact-me:hover {text-decoration: none}
+	</style>
+	<div id="headerbox">
+		<div id="header">
+			<a href="/"><img src="images/LM Logo.png"/></a>
+			<div class="title">Linggar Maretva Cendani</div>
+		</div>
+		<div id="navigation">
+			<ul>
+				<li><a href="">About</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a class="contact-me" href="">Contact Me</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	
     <!-- Trigger the Modal -->
     <img id="myImg" src="images/img_linggar.jpg" alt="My Photo" style="width:100%;max-width:300px">
 
@@ -57,5 +90,6 @@
       modal.style.display = "none";
     }
     </script>
+  </div>
   </body>
 </html>
