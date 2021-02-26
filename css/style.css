@@ -155,7 +155,7 @@ table {
 .title-underlined {background: #000; margin: 16px 0; width: 130px; height: 5px; border-radius: 5px;}
 
 #portbox-wrapper{display: table; margin: 0 auto;}
-.port-box {width:400px;height:500px;padding:16px;margin: 64px 16px; box-shadow: 1px 1px 4px #808080; border-radius: 10px; float:left}
+.port-box {width:400px;height:400px;padding:16px;margin: 64px 16px; box-shadow: 0px 1px 4px #ececec; border-radius: 10px; float:left; border:1px solid #ececec}
 .port-box img {width:368px;}
 .port-box .project-title {margin-top: 16px; overflow: hidden}
 .port-box h6 {float:left; font-family: "Raleway", sans-serif; font-size: 22px; font-weight: bold; padding: 2px 0}
