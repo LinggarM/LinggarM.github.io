@@ -145,3 +145,9 @@ table {
 #main h1{font-family: "Raleway", sans-serif; font-weight: bold; font-size:64px;text-align: center}
 #main p{font-family: "Quicksand", sans-serif; font-size:24px;text-align: center; margin-top: 32px}
 #main img{display: block; margin: auto; margin-top: 64px}
+.divider hr {opacity: 50%; width:100%; margin: 64px 0}
+#content h1 {font-family: "Raleway", sans-serif; font-weight: bold; font-size:56px;text-align: center}
+#content p {font-family: "Quicksand", sans-serif; font-size:24px;text-align: center; margin-top: 64px;line-height: 1.2}
+#content p b {font-family: "Quicksand", sans-serif; font-weight: bold}
+#about {}
+.title-underlined {background: #000; margin: 16px 0; width: 130px; height: 5px; border-radius: 5px;}
