@@ -1,133 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="icon" href="images/favicon.png">
+    <title>Linggar Maretva Cendani | Machine Learning Enthusiast</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-	
-	<!-- My Own CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+<body>
+    <nav>
+        <div id="nav-left">
+            <img id="nav-logo" src="images/logo.png">
+            <div id="nav-title">
+                Linggar Maretva Cendani
+            </div>
+        </div>
+        <div id="nav-right">
+            <ul>
+                <li><a onclick="scrollToElement('about')">About</a></li>
+                <li><a onclick="scrollToElement('skills')">Skills</a></li>
+                <li><a onclick="scrollToElement('projects')">Projects</a></li>
+                <li><a onclick="scrollToElement('contact')">Contact</a></li>
+                <a href="#" class="download-resume">Download Resume <i class="fa fa-download" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+    </nav>
+    <header id="about">
+        <div id="header-left">
+            <div id="header-left-container">
+                <div id="headline">Machine Learning Enthusiast</div>
+                <div id="summary">Hi, I'm Linggar Maretva Cendani. A passionate Machine Learning Enthusiast with over 3 years of experience working on Machine Learning projects using Python and various ML-related libraries. Proficient in practical web development using
+                    Flask framework for efficient deployment of machine learning models. A quick learner, target-oriented individual, and capable team player.</div>
+                <div id="social-links">
+                    <a class="social-link" id="linkedin" href="https://www.linkedin.com/in/linggarm" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a class="social-link" id="github" href="https://github.com/LinggarM" target="_blank"><i class="fab fa-github" ></i> GitHub</a>
+                    <a class="social-link" id="youtube" href="https://www.youtube.com/c/LinggarMaretvaCendani" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div id="header-right">
+            <img id="profile-photo" src="images/profile-photo.png">
+        </div>
+    </header>
+    <main>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="title-underline"></div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="title-underline"></div>
+            <div id="project-container">
+                <div class="project"></div>
+                <div class="project"></div>
+                <div class="project"></div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="title-underline"></div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-left">
+            Copyright © <span id="footer-year">2023</span>. All rights are reserved
+        </div>
+        <div id="footer-right">
+            Designed and Developed by Linggar Maretva Cendani
+        </div>
+    </footer>
 
-    <title>Linggar Maretva Cendani | Android Developer & Graphic Designer</title>
-  </head>
-  <body>
-  <div id="wrapper">
-	<div id="headerbox">
-		<div id="header">
-			<a href="/"><img src="images/LM Logo.png"/></a>
-			<div class="title">Linggar Maretva Cendani</div>
-		</div>
-		<div id="navigation">
-			<ul>
-				<li><a href="">About</a></li>
-				<li><a href="">Portfolio</a></li>
-				<li><a class="contact-me" href="">Contact Me</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="main">
-		<h1>I'm Linggar Maretva Cendani</h1>
-		<p>Everything about me on a page :D</p>
-		<img src="images/My Photo.png"/>
-		<center>
-			<div class="social-button">
-				<a href="http://linkedin.com/in/linggarm"><button class="btn-si btn-linkedin">Linkedin</button></a>
-				<a href="http://github.com/linggarm"><button class="btn-si btn-github">Github</button></a>
-				<a href="https://www.instagram.com/linggarm/"><button class="btn-si btn-instagram">Instagram</button></a>
-			</div>
-		</center>
-	</div>
-	<div id="content">
-		<div class="divider">
-			<hr/>
-		</div>
-		<div id = "about">
-			<h1>About</h1>
-			<center><div class="title-underlined"></div></center>
-			<center><p>Hi, I’m <b>Linggar</b>. I’m a <b>Full Stack Android Developer</b> and <b>Graphic Designer</b> based in Semarang, Indonesia. I’d like to create android applications with various features. Welcome to my portfolio page. Feel free to explore and contact me.  Currently, I’m working at <b>In Corporation</b> as Android Developer and Graphic Designer.</p></center>
-		</div>
-		<div class="divider">
-			<hr/>
-		</div>
-		<div id = "portfolio">
-			<h1>Portfolio</h1>
-			<center><div class="title-underlined"></div></center>
-			<center>
-			<div id="portbox-wrapper">
-				<div class="port-box">
-					<img id="myImg" src="images/Dinhub Banjarnegara.png"/>
-					<div class="project-title">
-						<h6>Dinhub Banjarnegara</h6>
-						<div class="tag">Android Apps</div>
-					</div>
-					<p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-				<div class="port-box">
-					<img id="myImg" src="images/Dinhub Banjarnegara.png"/>
-					<div class="project-title">
-						<h6>Dinhub Banjarnegara</h6>
-						<div class="tag">Android Apps</div>
-					</div>
-					<p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-				<div class="port-box">
-					<img id="myImg" src="images/Dinhub Banjarnegara.png"/>
-					<div class="project-title">
-						<h6>Dinhub Banjarnegara</h6>
-						<div class="tag">Android Apps</div>
-					</div>
-					<p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-			</div>
-			</center>
-		</div>
-	</div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-
-      <!-- The Close Button -->
-      <span class="close">&times;</span>
-
-      <!-- Modal Content (The Image) -->
-      <img class="modal-content" id="img01">
-
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption"></div>
-    </div>
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-    <script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById("myImg");
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    </script>
-  </div>
-  </body>
 </html>
