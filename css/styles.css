@@ -344,6 +344,21 @@ header {
     background: #f9f9f9;
 }
 
+#skill-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.skill {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%)
+}
+
 
 /* Projects */
 

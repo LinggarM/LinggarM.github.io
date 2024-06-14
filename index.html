@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -31,7 +33,7 @@
         </div>
     </nav>
     <header id="about">
-        <div id="header-left">
+        <div id="header-left" data-aos="fade-up" data-aos-duration="1000">
             <div id="header-left-container">
                 <div id="headline">Software Engineer & AI Enthusiast</div>
                 <div id="summary">Hi, I'm Linggar Maretva Cendani. A passionate Software Engineer & AI Enthusiast with over 3 years of experience working on Machine Learning projects using Python and various ML-related libraries. Proficient in practical web development using
@@ -43,27 +45,32 @@
                 </div>
             </div>
         </div>
-        <div id="header-right">
+        <div id="header-right" data-aos="fade-up" data-aos-duration="1000">
             <img id="profile-photo" src="images/profile-photo.png">
         </div>
     </header>
     <main>
         <section id="skills">
-            <h2>Skills</h2>
-            <div class="title-underline"></div>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Skills</h2>
+            <div class="title-underline" data-aos="fade-up" data-aos-duration="1000"></div>
+            <div id="skill-container" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill"></div>
+                <div class="skill"></div>
+                <div class="skill"></div>
+            </div>
         </section>
         <section id="projects">
-            <h2>Projects</h2>
-            <div class="title-underline"></div>
-            <div id="project-container">
+            <h2 data-aos="fade-up" data-aos-duration="1000">Projects</h2>
+            <div class="title-underline" data-aos="fade-up" data-aos-duration="1000"></div>
+            <div id="project-container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="project"></div>
                 <div class="project"></div>
                 <div class="project"></div>
             </div>
         </section>
         <section id="contact">
-            <h2>Contact</h2>
-            <div class="title-underline"></div>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Contact</h2>
+            <div class="title-underline" data-aos="fade-up" data-aos-duration="1000"></div>
         </section>
     </main>
     <footer>
@@ -76,6 +83,9 @@
     </footer>
 
     <script type="text/javascript" src="js/script.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>
